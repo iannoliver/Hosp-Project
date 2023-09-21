@@ -1,36 +1,3 @@
-# Hosp-Project
-## Projeto para fins comerciais, academicos, pessoais e para estudo
-
-É um projeto fullstack com ênfase no back-end e estrutura/modelagem de dados. No projeto de banco de dados, normalmente são considerados dois níveis de abstração de modelo de dados, o do modelo conceitual e o do modelo lógico.
-
-<hr>
-
-### Modelo Conceitual no Excel 1° Normalização
-!["Primeira Modelagem no Excel"](./1°Normalização.png)
-
-<hr>
-
-### Modelo Conceitual no Excel 2° Normalização
-!["Segunda Modelagem no Excel"](./2°Normalização.png)
-
-<hr>
-
-### Modelagem Lógica com o diagrama de entidade relacional
-!["Modelagem Lógica"](./Modelagem-logica.png)
-
-
-Além dos dois citados acima, também temos o modelo físico, que consiste no código bruto para criação e/ou até alimentação da base de dados com o uso da implementação.
-
-#### Neste diagrama temos as cardenalidade
-    - Um para Muitos
-    - Um para Um
-
-<hr>
-
-### Modelo Físico
-#### Abaixo está todo o código para a geração do banco de dados
-
-```sql
 CREATE SCHEMA IF NOT EXISTS hosp DEFAULT CHARACTER SET utf8mb4 ;
 USE hosp ;
 
@@ -245,4 +212,3 @@ DEFAULT CHARACTER SET = utf8mb4;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
-```

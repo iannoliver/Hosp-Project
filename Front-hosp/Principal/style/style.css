@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(assets/bg.jpg);
+    background-image: url(/assets/towfiqu-barbhuiya-FsVEqeiOtPo-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -36,6 +36,13 @@ p{
     line-height: 1.5;
     padding: 0.8rem;
     font-size: 18px;
+}
+
+.cont{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 1.7rem;
+    border-radius: 1.6rem;
+    backdrop-filter: blur(20px);
 }
 
 .container a{
@@ -62,7 +69,7 @@ p{
 }
 
 .second{
-    background-image: url(assets/bg-2.jpg);
+    background-image: url(/assets/cdc-GnLuuG9crEY-unsplash.jpg);
     background-attachment: fixed;
     height: 950px;
     flex-direction: row;

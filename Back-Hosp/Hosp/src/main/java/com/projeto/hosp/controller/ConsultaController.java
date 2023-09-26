@@ -52,7 +52,7 @@ public class ConsultaController {
 			c.setIdconsulta(id);
 			c.setDataconsulta(con.getDataconsulta());
 			c.setHoraconsulta(con.getHoraconsulta());
-			c.setValorconsulta(con.getValorconsulta());
+			c.setValor(con.getValor());
 			conRepo.save(c);
 			
 			msg = "Consulta atualizada";

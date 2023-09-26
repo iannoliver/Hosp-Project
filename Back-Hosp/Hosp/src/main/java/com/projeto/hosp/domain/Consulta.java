@@ -24,7 +24,7 @@ public class Consulta {
 	private Time horaconsulta;
 	
 	@Column(nullable = false)
-	private Double valorconsulta;
+	private Double valor;
 	
 	@JoinColumn(name = "idmedico")
 	private Integer idmedico;
@@ -43,7 +43,7 @@ public class Consulta {
 		this.idconsulta = idconsulta;
 		this.dataconsulta = dataconsulta;
 		this.horaconsulta = horaconsulta;
-		this.valorconsulta = valorconsulta;
+		this.valor = valor;
 		this.idmedico = idmedico;
 		this.idpaciente = idpaciente;
 		this.idespecialidade = idespecialidade;
@@ -73,12 +73,12 @@ public class Consulta {
 		this.horaconsulta = horaconsulta;
 	}
 
-	public Double getValorconsulta() {
-		return valorconsulta;
+	public Double getValor() {
+		return valor;
 	}
 
-	public void setValorconsulta(Double valorconsulta) {
-		this.valorconsulta = valorconsulta;
+	public void setValor(Double valor) {
+		this.valor = valor;
 	}
 
 	public Integer getIdmedico() {

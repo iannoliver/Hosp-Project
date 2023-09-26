@@ -19,7 +19,7 @@ public class Convenio {
 	private String nomeconvenio;
 	
 	@Column(nullable = false, unique=true)
-	private String cnpjconvenio;
+	private String cnpj;
 	
 	@Column(nullable = false)
 	private Time tempocarencia;
@@ -27,10 +27,10 @@ public class Convenio {
 	public Convenio() {
 	}
 
-	public Convenio(Integer idconvenio, String nomeconvenio, String cnpjconvenio, Time tempocarencia) {
+	public Convenio(Integer idconvenio, String nomeconvenio, String cnpj, Time tempocarencia) {
 		this.idconvenio = idconvenio;
 		this.nomeconvenio = nomeconvenio;
-		this.cnpjconvenio = cnpjconvenio;
+		this.cnpj = cnpj;
 		this.tempocarencia = tempocarencia;
 	}
 
@@ -50,12 +50,12 @@ public class Convenio {
 		this.nomeconvenio = nomeconvenio;
 	}
 
-	public String getCnpjconvenio() {
-		return cnpjconvenio;
+	public String getCnpj() {
+		return cnpj;
 	}
 
-	public void setCnpjconvenio(String cnpjconvenio) {
-		this.cnpjconvenio = cnpjconvenio;
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
 	}
 
 	public Time getTempocarencia() {
@@ -66,5 +66,5 @@ public class Convenio {
 		this.tempocarencia = tempocarencia;
 	}
 
-	
+		
 }

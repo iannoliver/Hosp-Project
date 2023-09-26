@@ -42,7 +42,7 @@ public class Endereco {
 	private Integer idmedico;
 	
 	@JoinColumn(name = "idpaciente")
-	private Integer idepaciente;
+	private Integer idpaciente;
 
 	public Endereco() {
 	}
@@ -59,7 +59,7 @@ public class Endereco {
 		this.cidade = cidade;
 		this.estado = estado;
 		this.idmedico = idmedico;
-		this.idepaciente = idepaciente;
+		this.idpaciente = idepaciente;
 	}
 
 	public Integer getIdendereco() {
@@ -143,11 +143,11 @@ public class Endereco {
 	}
 
 	public Integer getIdepaciente() {
-		return idepaciente;
+		return idpaciente;
 	}
 
 	public void setIdepaciente(Integer idepaciente) {
-		this.idepaciente = idepaciente;
+		this.idpaciente = idepaciente;
 	}
 	
 	

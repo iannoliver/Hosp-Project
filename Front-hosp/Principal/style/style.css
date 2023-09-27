@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/assets/towfiqu-barbhuiya-FsVEqeiOtPo-unsplash.jpg);
+    background-image: url(/Principal/assets/towfiqu-barbhuiya-FsVEqeiOtPo-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -64,12 +64,12 @@ p{
 
 .blank, .blank-2{
     width: 100%;
-    min-height: 60vh;
+    min-height: 20vh;
     background-color: #323232;
 }
 
 .second{
-    background-image: url(/assets/cdc-GnLuuG9crEY-unsplash.jpg);
+    background-image: url(/Principal/assets/clay-banks-cEzMOp5FtV4-unsplash.jpg);
     background-attachment: fixed;
     height: 950px;
     flex-direction: row;

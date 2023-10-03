@@ -29,7 +29,7 @@ public class Medico {
 	@Column(nullable = false)
 	private String cargo;
 	
-	@JoinColumn(name = "idespecialidade")
+	@JoinColumn(name = "idespecialidade", nullable = false)
 	private Integer idespecialidade;
 
 	public Medico() {

@@ -55,6 +55,7 @@ public class MedicoController {
 			m.setCrm(med.getCrm());
 			m.setEmailmed(med.getEmailmed());
 			m.setCargo(med.getCargo());
+			m.setIdespecialidade(med.getIdespecialidade());
 			medRepo.save(m);
 			
 			msg = "Médico atualizado";

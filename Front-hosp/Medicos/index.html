@@ -6,7 +6,7 @@
     <title>Equipe Médica - Hosp</title>
     <link rel="stylesheet" href="/Medicos/css/style.css">
 </head>
-<body>
+<body onload="exibirMedicos()">
     <header>
         <h1>Equipe Médica</h1>
         <nav>
@@ -22,17 +22,31 @@
         </nav>
     </header>
 
-    <section id="cardiologist" onload="exibirMedicos()" >
+    <section id="cardiologist">
         <h2>Cardiologistas</h2>
-        <tbody></tbody>
+        <table>
+            <theader>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </theader>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <section id="orthopedist">
         <h2>Ortopedistas</h2>
-        <div class="doctor">
 
-        </div>
-        <!-- Adicione mais informações sobre ortopedistas aqui -->
     </section>
 
     <section id="pediatrician">
@@ -44,7 +58,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Hospital ABC</p>
+        <p>&copy; 2023 Hosp</p>
     </footer>
 
     <script src="/Medicos/js/script.js"></script>

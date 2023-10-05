@@ -3,6 +3,7 @@ function exibirMedicos() {
     fetch("http://localhost:5000/api/medico/listar")
     .then((response)=>response.json())
     .then((dados) => {
+        console.log(dados)
         dados.map((itens,ix)=>{
             saida += `<tr><td>${itens.idmedico}</td>
             <td>${itens.nomemed}</td>
